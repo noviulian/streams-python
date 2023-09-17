@@ -53,7 +53,7 @@ NEW_STREAM_BODY = {
     "triggers": [FROM_BALANCE_TRIGGER, TO_BALANCE_TRIGGER],
 }
 
-api_key = "YOUR_API_KEY"
+api_key = "Your key"
 
 
 results = streams.evm_streams.create_stream(api_key=api_key, body=NEW_STREAM_BODY)
